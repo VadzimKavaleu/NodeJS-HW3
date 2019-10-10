@@ -1,0 +1,28 @@
+{
+  "name": "package.json",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@ui5/cli": "1.7.0",
+    "@sap/ui5-builder-webide-extension": "1.0.5"
+  },
+  "scripts": {
+    "build": "ui5 build --include-task=generateManifestBundle generateCachebusterInfo"
+  },
+  "ui5": {
+    "dependencies": [
+      "@sap/ui5-builder-webide-extension"
+    ]
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "simple-odata-server": "^1.1.1",
+    "simple-odata-server-nedb": "^1.0.0"
+  },
+  "author": "vadzim kavaleu",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
