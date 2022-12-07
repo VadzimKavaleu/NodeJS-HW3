@@ -16,7 +16,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "nedb": "^1.8.0",
     "simple-odata-server": "^1.1.1",
     "simple-odata-server-nedb": "^1.0.0"
